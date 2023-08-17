@@ -19,7 +19,7 @@ public class VariablesTheme {
         double penPrice = 100;
         double bookPrice = 200;
         double tottalPrice = penPrice + bookPrice;
-        double tottalDiscount = (penPrice+bookPrice) * 0.11;
+        double tottalDiscount = (penPrice + bookPrice) * 0.11;
         System.out.println("Общая стоимость товаров без скидки = " + tottalPrice +
                 "\nСумма скидки товаров = " + tottalDiscount +
                 "\nОбщая стоимость товаров со скидкой = " + (tottalPrice - tottalDiscount));
@@ -87,8 +87,8 @@ public class VariablesTheme {
         char underscore = '_';
         char leftParenthesis = '(';
         char rigthParenthesis = ')';
-        System.out.println("    " + slash + backslash + "\n" + "   " + slash + "  " + backslash +
-                "\n" + "  " + slash + underscore + leftParenthesis + " " + rigthParenthesis +
+        System.out.println("    " + slash + backslash + "\n" + "   " + slash + "  " + backslash + "\n" +
+                "  " + slash + underscore + leftParenthesis + " " + rigthParenthesis +
                 backslash + "\n" + " " + slash + "      " + backslash + "\n" + slash +
                 underscore + underscore + underscore + underscore + slash + backslash + underscore +
                 underscore + backslash);
